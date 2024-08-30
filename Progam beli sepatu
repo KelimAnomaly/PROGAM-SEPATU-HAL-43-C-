@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+main(){
+       int sepatu,kaoskaki,tali;
+       pertama :
+               cout<<"Pergi ke Toko Sepatu (1=Pergi) : ";cin>>pergi;
+               if(pergi == 1){
+                         cout<<"Sedang pergi ke toko sepatu"<<endl;
+                         goto kedua;
+                    }
+                    else{
+                         cout<<"Pergi ke Toko Sepatu!!!"<<endl;
+                         goto pertama;
+                    }
+                    kedua :
+                    cout<<"Pilih sepatu yang sesuai (1=Pilih) : ";cin>>sesuai;
+                         if(sesuai == 1){
+                                 cout<<"Beli Sepatu"<<endl;
+                                 goto ketiga;
+                    }
+                    else{
+                         cout<<"Pilih sepatu yang sesuai!!!"<<endl;
+                         goto kedua;
+                    }
+                    ketiga :
+                    cout<<"Ingin mengirim sepatu??? (1 = YA) : ";cin>>kirim;
+                    if(kirim == 1){
+                            cout<<"Bungkus Sepatu"<<endl;
+                            cout<<"Pergi ke jasa pengiriman"<<endl;
+                            cout<<"Kirimkan Sepatu"<<endl;
+                            goto keempat;
+                    }   
+                    else{
+                            goto ketiga;
+                    }
+                    keempat:
+                    return 0;
+       }
+               
+                                      
+                                 
+                    
