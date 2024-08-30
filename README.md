@@ -1,2 +1,2 @@
 KelimaAnomaly
-Anggota: Cherly, Daniel, Eunike, Isma
+Anggota: Cherly, Daniel, Eunike, Isma, Fiana
